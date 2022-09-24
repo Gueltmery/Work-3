@@ -1,0 +1,12 @@
+D=input('Введите число:\n')
+SD=list(D)
+MaxD=max(SD)
+MinD=min(SD) 
+print('Максимальная цифра =', MaxD)
+print('Минимальная цифра =', MinD)
+Poz1=SD.index(MaxD) 
+Poz2=SD.index(MinD) 
+if Poz1<Poz2:
+    print('Левее находится максимальная цифра =', MaxD)
+else:
+    print('Левее находится минимальная цифра =', MinD )
